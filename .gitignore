@@ -1,0 +1,9 @@
+# Large local datasets (not published to GitHub)
+/data/
+/job_embeddings.npy
+/job_embeddings_with_unemployed_fixed.csv
+*.npy
+
+# Generated Python caches
+__pycache__/
+*.py[cod]
