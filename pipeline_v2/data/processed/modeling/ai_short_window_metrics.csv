@@ -1,0 +1,7 @@
+scope,group_month_n,independent_test_months,train_months,train_group_month_n,occupation_groups,scope_note,model,macro_mae_pp,macro_rmse_pp,paired_no_P_mae_gain_pp
+all_22_groups,154,7,12,264,22,all 22 groups with positive matched-only E coverage,persistence,0.780091216737206,1.1801122471852892,
+all_22_groups,154,7,12,264,22,all 22 groups with positive matched-only E coverage,cps_acs_ridge_no_P,0.5391012587055601,0.8512773057064538,0.0
+all_22_groups,154,7,12,264,22,all 22 groups with positive matched-only E coverage,cps_acs_ridge_plus_P,0.5493575629954136,0.8479843414039085,-0.010256304289853468
+coverage_ge_50pct,91,7,12,156,13,sensitivity: groups with at least 50% employment-weighted E coverage,persistence,0.7279136350771032,1.0148682497061956,
+coverage_ge_50pct,91,7,12,156,13,sensitivity: groups with at least 50% employment-weighted E coverage,cps_acs_ridge_no_P,0.449972998908776,0.6537101633669902,0.0
+coverage_ge_50pct,91,7,12,156,13,sensitivity: groups with at least 50% employment-weighted E coverage,cps_acs_ridge_plus_P,0.4619838151505622,0.6533235936743882,-0.012010816241786182

@@ -1,0 +1,854 @@
+{
+  "schema_version": "1.0",
+  "cps_years": [
+    {
+      "year": 2016,
+      "layout_file": "2016_January_2015_Record_Layout.txt",
+      "layout_sha256": "8ccf5ac8232a61588c68764fe945fe251613db3f1259b4feb066876431e31a65",
+      "variables": {
+        "HRMONTH": {
+          "start": 16,
+          "end": 17,
+          "width": 2
+        },
+        "HRYEAR4": {
+          "start": 18,
+          "end": 21,
+          "width": 4
+        },
+        "PRPERTYP": {
+          "start": 161,
+          "end": 162,
+          "width": 2
+        },
+        "PRTAGE": {
+          "start": 122,
+          "end": 123,
+          "width": 2
+        },
+        "PEMLR": {
+          "start": 180,
+          "end": 181,
+          "width": 2
+        },
+        "PWSSWGT": {
+          "start": 613,
+          "end": 622,
+          "width": 10
+        },
+        "PEIO1OCD": {
+          "start": 860,
+          "end": 863,
+          "width": 4
+        }
+      },
+      "occupation_variable": "PEIO1OCD",
+      "occupation_code_version": "census_2010",
+      "person_weight": "PWSSWGT with four implied decimal places; analysis weight = field / 10000",
+      "weight_universe": "adult civilian CPS person record; restricted to PRPERTYP=2 and age >=16"
+    },
+    {
+      "year": 2017,
+      "layout_file": "2017_January_2017_Record_Layout.txt",
+      "layout_sha256": "b5d977f86f2745d8d692612c8a3debf024f4be29a12b8cfc07664d8a6116e7a3",
+      "variables": {
+        "HRMONTH": {
+          "start": 16,
+          "end": 17,
+          "width": 2
+        },
+        "HRYEAR4": {
+          "start": 18,
+          "end": 21,
+          "width": 4
+        },
+        "PRPERTYP": {
+          "start": 161,
+          "end": 162,
+          "width": 2
+        },
+        "PRTAGE": {
+          "start": 122,
+          "end": 123,
+          "width": 2
+        },
+        "PEMLR": {
+          "start": 180,
+          "end": 181,
+          "width": 2
+        },
+        "PWSSWGT": {
+          "start": 613,
+          "end": 622,
+          "width": 10
+        },
+        "PEIO1OCD": {
+          "start": 860,
+          "end": 863,
+          "width": 4
+        }
+      },
+      "occupation_variable": "PEIO1OCD",
+      "occupation_code_version": "census_2010",
+      "person_weight": "PWSSWGT with four implied decimal places; analysis weight = field / 10000",
+      "weight_universe": "adult civilian CPS person record; restricted to PRPERTYP=2 and age >=16"
+    },
+    {
+      "year": 2018,
+      "layout_file": "2018_January_2017_Record_Layout.txt",
+      "layout_sha256": "b5d977f86f2745d8d692612c8a3debf024f4be29a12b8cfc07664d8a6116e7a3",
+      "variables": {
+        "HRMONTH": {
+          "start": 16,
+          "end": 17,
+          "width": 2
+        },
+        "HRYEAR4": {
+          "start": 18,
+          "end": 21,
+          "width": 4
+        },
+        "PRPERTYP": {
+          "start": 161,
+          "end": 162,
+          "width": 2
+        },
+        "PRTAGE": {
+          "start": 122,
+          "end": 123,
+          "width": 2
+        },
+        "PEMLR": {
+          "start": 180,
+          "end": 181,
+          "width": 2
+        },
+        "PWSSWGT": {
+          "start": 613,
+          "end": 622,
+          "width": 10
+        },
+        "PEIO1OCD": {
+          "start": 860,
+          "end": 863,
+          "width": 4
+        }
+      },
+      "occupation_variable": "PEIO1OCD",
+      "occupation_code_version": "census_2010",
+      "person_weight": "PWSSWGT with four implied decimal places; analysis weight = field / 10000",
+      "weight_universe": "adult civilian CPS person record; restricted to PRPERTYP=2 and age >=16"
+    },
+    {
+      "year": 2019,
+      "layout_file": "2019_January_2017_Record_Layout.txt",
+      "layout_sha256": "b5d977f86f2745d8d692612c8a3debf024f4be29a12b8cfc07664d8a6116e7a3",
+      "variables": {
+        "HRMONTH": {
+          "start": 16,
+          "end": 17,
+          "width": 2
+        },
+        "HRYEAR4": {
+          "start": 18,
+          "end": 21,
+          "width": 4
+        },
+        "PRPERTYP": {
+          "start": 161,
+          "end": 162,
+          "width": 2
+        },
+        "PRTAGE": {
+          "start": 122,
+          "end": 123,
+          "width": 2
+        },
+        "PEMLR": {
+          "start": 180,
+          "end": 181,
+          "width": 2
+        },
+        "PWSSWGT": {
+          "start": 613,
+          "end": 622,
+          "width": 10
+        },
+        "PEIO1OCD": {
+          "start": 860,
+          "end": 863,
+          "width": 4
+        }
+      },
+      "occupation_variable": "PEIO1OCD",
+      "occupation_code_version": "census_2010",
+      "person_weight": "PWSSWGT with four implied decimal places; analysis weight = field / 10000",
+      "weight_universe": "adult civilian CPS person record; restricted to PRPERTYP=2 and age >=16"
+    },
+    {
+      "year": 2020,
+      "layout_file": "2020_2020_Basic_CPS_Public_Use_Record_Layout_plus_IO_Code_list.txt",
+      "layout_sha256": "6980896b1529b6f6832d4261503eb1d1db2e86984a0e8d2506d24ba81102e5bf",
+      "variables": {
+        "HRMONTH": {
+          "start": 16,
+          "end": 17,
+          "width": 2
+        },
+        "HRYEAR4": {
+          "start": 18,
+          "end": 21,
+          "width": 4
+        },
+        "PRPERTYP": {
+          "start": 161,
+          "end": 162,
+          "width": 2
+        },
+        "PRTAGE": {
+          "start": 122,
+          "end": 123,
+          "width": 2
+        },
+        "PEMLR": {
+          "start": 180,
+          "end": 181,
+          "width": 2
+        },
+        "PWSSWGT": {
+          "start": 613,
+          "end": 622,
+          "width": 10
+        },
+        "PEIO1OCD": {
+          "start": 860,
+          "end": 863,
+          "width": 4
+        }
+      },
+      "occupation_variable": "PEIO1OCD",
+      "occupation_code_version": "census_2018",
+      "person_weight": "PWSSWGT with four implied decimal places; analysis weight = field / 10000",
+      "weight_universe": "adult civilian CPS person record; restricted to PRPERTYP=2 and age >=16"
+    },
+    {
+      "year": 2021,
+      "layout_file": "2021_2021_Basic_CPS_Public_Use_Record_Layout_plus_IO_Code_list.txt",
+      "layout_sha256": "f3f98e2ce21370e2912a5694d5552a50a5c8756328ac26f5bf81f063a79f2281",
+      "variables": {
+        "HRMONTH": {
+          "start": 16,
+          "end": 17,
+          "width": 2
+        },
+        "HRYEAR4": {
+          "start": 18,
+          "end": 21,
+          "width": 4
+        },
+        "PRPERTYP": {
+          "start": 161,
+          "end": 162,
+          "width": 2
+        },
+        "PRTAGE": {
+          "start": 122,
+          "end": 123,
+          "width": 2
+        },
+        "PEMLR": {
+          "start": 180,
+          "end": 181,
+          "width": 2
+        },
+        "PWSSWGT": {
+          "start": 613,
+          "end": 622,
+          "width": 10
+        },
+        "PTIO1OCD": {
+          "start": 860,
+          "end": 863,
+          "width": 4
+        }
+      },
+      "occupation_variable": "PTIO1OCD",
+      "occupation_code_version": "census_2018",
+      "person_weight": "PWSSWGT with four implied decimal places; analysis weight = field / 10000",
+      "weight_universe": "adult civilian CPS person record; restricted to PRPERTYP=2 and age >=16"
+    },
+    {
+      "year": 2022,
+      "layout_file": "2022_2022_Basic_CPS_Public_Use_Record_Layout_plus_IO_Code_list.txt",
+      "layout_sha256": "ed98d01f7d301f32e750a2ba6c1e32756179c74f703a0703170997f1d514898f",
+      "variables": {
+        "HRMONTH": {
+          "start": 16,
+          "end": 17,
+          "width": 2
+        },
+        "HRYEAR4": {
+          "start": 18,
+          "end": 21,
+          "width": 4
+        },
+        "PRPERTYP": {
+          "start": 161,
+          "end": 162,
+          "width": 2
+        },
+        "PRTAGE": {
+          "start": 122,
+          "end": 123,
+          "width": 2
+        },
+        "PEMLR": {
+          "start": 180,
+          "end": 181,
+          "width": 2
+        },
+        "PWSSWGT": {
+          "start": 613,
+          "end": 622,
+          "width": 10
+        },
+        "PTIO1OCD": {
+          "start": 860,
+          "end": 863,
+          "width": 4
+        }
+      },
+      "occupation_variable": "PTIO1OCD",
+      "occupation_code_version": "census_2018",
+      "person_weight": "PWSSWGT with four implied decimal places; analysis weight = field / 10000",
+      "weight_universe": "adult civilian CPS person record; restricted to PRPERTYP=2 and age >=16"
+    },
+    {
+      "year": 2023,
+      "layout_file": "2023_2023_Basic_CPS_Public_Use_Record_Layout_plus_IO_Code_list.txt",
+      "layout_sha256": "4895273cf2aa25db259a2f1432c130da3e10212dc92fad1aea96c728fc41d071",
+      "variables": {
+        "HRMONTH": {
+          "start": 16,
+          "end": 17,
+          "width": 2
+        },
+        "HRYEAR4": {
+          "start": 18,
+          "end": 21,
+          "width": 4
+        },
+        "PRPERTYP": {
+          "start": 161,
+          "end": 162,
+          "width": 2
+        },
+        "PRTAGE": {
+          "start": 122,
+          "end": 123,
+          "width": 2
+        },
+        "PEMLR": {
+          "start": 180,
+          "end": 181,
+          "width": 2
+        },
+        "PWSSWGT": {
+          "start": 613,
+          "end": 622,
+          "width": 10
+        },
+        "PTIO1OCD": {
+          "start": 860,
+          "end": 863,
+          "width": 4
+        }
+      },
+      "occupation_variable": "PTIO1OCD",
+      "occupation_code_version": "census_2018",
+      "person_weight": "PWSSWGT with four implied decimal places; analysis weight = field / 10000",
+      "weight_universe": "adult civilian CPS person record; restricted to PRPERTYP=2 and age >=16"
+    },
+    {
+      "year": 2024,
+      "layout_file": "2024_2024_Basic_CPS_Public_Use_Record_Layout_plus_IO_Code_list.txt",
+      "layout_sha256": "7065678e6e62562183c1076d6846efea74f3fdb7f323f42f50cdfd5250a49a9d",
+      "variables": {
+        "HRMONTH": {
+          "start": 16,
+          "end": 17,
+          "width": 2
+        },
+        "HRYEAR4": {
+          "start": 18,
+          "end": 21,
+          "width": 4
+        },
+        "PRPERTYP": {
+          "start": 161,
+          "end": 162,
+          "width": 2
+        },
+        "PRTAGE": {
+          "start": 122,
+          "end": 123,
+          "width": 2
+        },
+        "PEMLR": {
+          "start": 180,
+          "end": 181,
+          "width": 2
+        },
+        "PWSSWGT": {
+          "start": 613,
+          "end": 622,
+          "width": 10
+        },
+        "PTIO1OCD": {
+          "start": 860,
+          "end": 863,
+          "width": 4
+        }
+      },
+      "occupation_variable": "PTIO1OCD",
+      "occupation_code_version": "census_2018",
+      "person_weight": "PWSSWGT with four implied decimal places; analysis weight = field / 10000",
+      "weight_universe": "adult civilian CPS person record; restricted to PRPERTYP=2 and age >=16"
+    },
+    {
+      "year": 2025,
+      "layout_file": "2025_2025_Basic_CPS_Public_Use_Record_Layout_plus_IO_Code_list.txt",
+      "layout_sha256": "f846661ba077f89d5ccd5e28d385f78b22d8986a8cadcf73bfa7a70bac007470",
+      "variables": {
+        "HRMONTH": {
+          "start": 16,
+          "end": 17,
+          "width": 2
+        },
+        "HRYEAR4": {
+          "start": 18,
+          "end": 21,
+          "width": 4
+        },
+        "PRPERTYP": {
+          "start": 161,
+          "end": 162,
+          "width": 2
+        },
+        "PRTAGE": {
+          "start": 122,
+          "end": 123,
+          "width": 2
+        },
+        "PEMLR": {
+          "start": 180,
+          "end": 181,
+          "width": 2
+        },
+        "PWSSWGT": {
+          "start": 613,
+          "end": 622,
+          "width": 10
+        },
+        "PTIO1OCD": {
+          "start": 860,
+          "end": 863,
+          "width": 4
+        }
+      },
+      "occupation_variable": "PTIO1OCD",
+      "occupation_code_version": "census_2018",
+      "person_weight": "PWSSWGT with four implied decimal places; analysis weight = field / 10000",
+      "weight_universe": "adult civilian CPS person record; restricted to PRPERTYP=2 and age >=16"
+    },
+    {
+      "year": 2026,
+      "layout_file": "2026_2026_Basic_CPS_Public_Use_Record_Layout_plus_IO_Code_list.txt",
+      "layout_sha256": "0c1acfbe3a669c204d32d36a458a12972c6a41c3311f02d4ff7b84e4b2885017",
+      "variables": {
+        "HRMONTH": {
+          "start": 16,
+          "end": 17,
+          "width": 2
+        },
+        "HRYEAR4": {
+          "start": 18,
+          "end": 21,
+          "width": 4
+        },
+        "PRPERTYP": {
+          "start": 161,
+          "end": 162,
+          "width": 2
+        },
+        "PRTAGE": {
+          "start": 122,
+          "end": 123,
+          "width": 2
+        },
+        "PEMLR": {
+          "start": 180,
+          "end": 181,
+          "width": 2
+        },
+        "PWSSWGT": {
+          "start": 613,
+          "end": 622,
+          "width": 10
+        },
+        "PTIO1OCD": {
+          "start": 860,
+          "end": 863,
+          "width": 4
+        }
+      },
+      "occupation_variable": "PTIO1OCD",
+      "occupation_code_version": "census_2018",
+      "person_weight": "PWSSWGT with four implied decimal places; analysis weight = field / 10000",
+      "weight_universe": "adult civilian CPS person record; restricted to PRPERTYP=2 and age >=16"
+    }
+  ],
+  "acs_years": [
+    {
+      "year": 2018,
+      "dictionary_file": "PUMS_Data_Dictionary_2018.txt",
+      "dictionary_sha256": "843a18e15b6cb7c7326261d478947a1415c4674c62419a8d01946a5a5df4d5fd",
+      "variables": {
+        "PWGTP": [
+          "PWGTP       Numeric     5",
+          "Person's weight",
+          "            1..9999      .Integer weight of person"
+        ],
+        "OCCP": [
+          "OCCP        Character   4",
+          "Occupation recode for 2018 and later based on 2018 OCC codes",
+          "            bbbb       .N/A (less than 16 years old/NILF who last worked more than 5 years ago or never worked)"
+        ],
+        "ESR": [
+          "ESR         Character   1",
+          "Employment status recode",
+          "            b    .N/A (less than 16 years old)"
+        ],
+        "AGEP": [
+          "AGEP        Numeric     2",
+          "Age",
+          "            0      .Under 1 year"
+        ],
+        "SCHL": [
+          "SCHL        Character   2",
+          "Educational attainment",
+          "            bb     .N/A (less than 3 years old)"
+        ]
+      },
+      "occupation_code_version": "census_2018",
+      "person_weight": "PWGTP integer person weight, no decimal scaling",
+      "employment_universe": "ESR 1 or 2: civilian employed at work or with job but not at work",
+      "occupation_universe": "OCCP 4-character 2018 Census OCC recode; blank is N/A by documented universe",
+      "pums_release_date": "2019-11-14"
+    },
+    {
+      "year": 2019,
+      "dictionary_file": "PUMS_Data_Dictionary_2019.txt",
+      "dictionary_sha256": "2ecbd86e979aa4e94945012e7537e53c37a4deff7f0435adb000b98b5a50ce77",
+      "variables": {
+        "PWGTP": [
+          "PWGTP       Numeric     5",
+          "Person's weight",
+          "            1..9999      .Integer weight of person"
+        ],
+        "OCCP": [
+          "OCCP        Character   4",
+          "Occupation recode for 2018 and later based on 2018 OCC codes",
+          "            bbbb       .N/A (less than 16 years old/NILF who last worked more than 5 years ago or never worked)"
+        ],
+        "ESR": [
+          "ESR         Character   1",
+          "Employment status recode",
+          "            b    .N/A (less than 16 years old)"
+        ],
+        "AGEP": [
+          "AGEP        Numeric     2",
+          "Age",
+          "            0      .Under 1 year"
+        ],
+        "SCHL": [
+          "SCHL        Character   2",
+          "Educational attainment",
+          "            bb     .N/A (less than 3 years old)"
+        ]
+      },
+      "occupation_code_version": "census_2018",
+      "person_weight": "PWGTP integer person weight, no decimal scaling",
+      "employment_universe": "ESR 1 or 2: civilian employed at work or with job but not at work",
+      "occupation_universe": "OCCP 4-character 2018 Census OCC recode; blank is N/A by documented universe",
+      "pums_release_date": "2020-10-15"
+    },
+    {
+      "year": 2021,
+      "dictionary_file": "PUMS_Data_Dictionary_2021.txt",
+      "dictionary_sha256": "53fb9da5c36b68670c54ab12baa13c4767f6b3e43db326585635c5a333090b60",
+      "variables": {
+        "PWGTP": [
+          "PWGTP       Numeric     5",
+          "Person's weight",
+          "            1..9999      .Integer weight of person"
+        ],
+        "OCCP": [
+          "OCCP        Character   4",
+          "Occupation recode for 2018 and later based on 2018 OCC codes",
+          "            bbbb       .N/A (less than 16 years old/NILF who last worked more than 5 years ago or never worked)"
+        ],
+        "ESR": [
+          "ESR         Character   1",
+          "Employment status recode",
+          "            b    .N/A (less than 16 years old)"
+        ],
+        "AGEP": [
+          "AGEP        Numeric     2",
+          "Age",
+          "            0      .Under 1 year"
+        ],
+        "SCHL": [
+          "SCHL        Character   2",
+          "Educational attainment",
+          "            bb     .N/A (less than 3 years old)"
+        ]
+      },
+      "occupation_code_version": "census_2018",
+      "person_weight": "PWGTP integer person weight, no decimal scaling",
+      "employment_universe": "ESR 1 or 2: civilian employed at work or with job but not at work",
+      "occupation_universe": "OCCP 4-character 2018 Census OCC recode; blank is N/A by documented universe",
+      "pums_release_date": "2022-10-20"
+    },
+    {
+      "year": 2022,
+      "dictionary_file": "PUMS_Data_Dictionary_2022.txt",
+      "dictionary_sha256": "4a920e7c2a83dc5bede6620e5edf9bed825a8950072271bbbadd800c400ba9e6",
+      "variables": {
+        "PWGTP": [
+          "PWGTP       Numeric     5",
+          "Person's weight",
+          "            1..9999      .Integer weight of person"
+        ],
+        "OCCP": [
+          "OCCP        Character   4",
+          "Occupation recode for 2018 and later based on 2018 OCC codes",
+          "            bbbb       .N/A (less than 16 years old/NILF who last worked more than 5 years ago or never worked)"
+        ],
+        "ESR": [
+          "ESR         Character   1",
+          "Employment status recode",
+          "            b    .N/A (less than 16 years old)"
+        ],
+        "AGEP": [
+          "AGEP        Numeric     2",
+          "Age",
+          "            0      .Under 1 year"
+        ],
+        "SCHL": [
+          "SCHL        Character   2",
+          "Educational attainment",
+          "            bb     .N/A (less than 3 years old)"
+        ]
+      },
+      "occupation_code_version": "census_2018",
+      "person_weight": "PWGTP integer person weight, no decimal scaling",
+      "employment_universe": "ESR 1 or 2: civilian employed at work or with job but not at work",
+      "occupation_universe": "OCCP 4-character 2018 Census OCC recode; blank is N/A by documented universe",
+      "pums_release_date": "2023-10-19"
+    },
+    {
+      "year": 2023,
+      "dictionary_file": "PUMS_Data_Dictionary_2023.txt",
+      "dictionary_sha256": "0e58d8edd725d44035c32ee2697acb3963eb39c36caf4096e0ce494c64bb6dc6",
+      "variables": {
+        "PWGTP": [
+          "PWGTP       Numeric     5",
+          "Person's weight",
+          "            1..9999      .Integer weight of person"
+        ],
+        "OCCP": [
+          "OCCP        Character   4",
+          "Occupation recode for 2018 and later based on 2018 OCC codes",
+          "            bbbb       .N/A (less than 16 years old/NILF who last worked more than 5 years ago or never worked)"
+        ],
+        "ESR": [
+          "ESR         Character   1",
+          "Employment status recode",
+          "            b    .N/A (less than 16 years old)"
+        ],
+        "AGEP": [
+          "AGEP        Numeric     2",
+          "Age",
+          "            0      .Under 1 year"
+        ],
+        "SCHL": [
+          "SCHL        Character   2",
+          "Educational attainment",
+          "            bb     .N/A (less than 3 years old)"
+        ]
+      },
+      "occupation_code_version": "census_2018",
+      "person_weight": "PWGTP integer person weight, no decimal scaling",
+      "employment_universe": "ESR 1 or 2: civilian employed at work or with job but not at work",
+      "occupation_universe": "OCCP 4-character 2018 Census OCC recode; blank is N/A by documented universe",
+      "pums_release_date": "2024-10-17"
+    },
+    {
+      "year": 2024,
+      "dictionary_file": "PUMS_Data_Dictionary_2024.txt",
+      "dictionary_sha256": "9a98282277aa7f2dafb12b0bdf38b258689d3a1a9c2abbd9b5e2c1ddde6f7b32",
+      "variables": {
+        "PWGTP": [
+          "PWGTP       Numeric     5",
+          "Person's weight",
+          "            1..9999      .Integer weight of person"
+        ],
+        "OCCP": [
+          "OCCP        Character   4",
+          "Occupation recode for 2018 and later based on 2018 OCC codes",
+          "            bbbb       .N/A (less than 16 years old/NILF who last worked more than 5 years ago or never worked)"
+        ],
+        "ESR": [
+          "ESR         Character   1",
+          "Employment status recode",
+          "            b    .N/A (less than 16 years old)"
+        ],
+        "AGEP": [
+          "AGEP        Numeric     2",
+          "Age",
+          "            0      .Under 1 year"
+        ],
+        "SCHL": [
+          "SCHL        Character   2",
+          "Educational attainment",
+          "            bb     .N/A (less than 3 years old)"
+        ]
+      },
+      "occupation_code_version": "census_2018",
+      "person_weight": "PWGTP integer person weight, no decimal scaling",
+      "employment_universe": "ESR 1 or 2: civilian employed at work or with job but not at work",
+      "occupation_universe": "OCCP 4-character 2018 Census OCC recode; blank is N/A by documented universe",
+      "pums_release_date": "2025-12-04"
+    }
+  ],
+  "occupation_groups": [
+    {
+      "soc_major_code": "11-0000",
+      "title": "Management Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "13-0000",
+      "title": "Business and Financial Operations Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "15-0000",
+      "title": "Computer and Mathematical Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "17-0000",
+      "title": "Architecture and Engineering Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "19-0000",
+      "title": "Life, Physical, and Social Science Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "21-0000",
+      "title": "Community and Social Service Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "23-0000",
+      "title": "Legal Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "25-0000",
+      "title": "Education, Training, and Library Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "27-0000",
+      "title": "Arts, Design, Entertainment, Sports, and Media Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "29-0000",
+      "title": "Healthcare Practitioners and Technical Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "31-0000",
+      "title": "Healthcare Support Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "33-0000",
+      "title": "Protective Service Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "35-0000",
+      "title": "Food Preparation and Serving Related Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "37-0000",
+      "title": "Building and Grounds Cleaning and Maintenance Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "39-0000",
+      "title": "Personal Care and Service Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "41-0000",
+      "title": "Sales and Related Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "43-0000",
+      "title": "Office and Administrative Support Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "45-0000",
+      "title": "Farming, Fishing, and Forestry Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "47-0000",
+      "title": "Construction and Extraction Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "49-0000",
+      "title": "Installation, Maintenance, and Repair Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "51-0000",
+      "title": "Production Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "53-0000",
+      "title": "Transportation and Material Moving Occupations",
+      "civilian": true
+    },
+    {
+      "soc_major_code": "55-0000",
+      "title": "Military Specific Occupations",
+      "civilian": false
+    }
+  ],
+  "cps_classification_break": "2010 Census OCC through 2019; 2018 Census OCC beginning January 2020",
+  "weight_comparability": "CPS PWSSWGT is rescaled from 4 implied decimals; ACS PWGTP is an integer person weight and is not rescaled"
+}

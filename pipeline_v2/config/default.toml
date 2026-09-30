@@ -1,0 +1,29 @@
+[study]
+population = "US civilian noninstitutional population age 16+"
+occupation_unit = "stable coarse occupation group"
+target_definition = "mean unemployment rate for calendar months t+1, t+2, t+3"
+primary_mode = "retrospective_current_vintage"
+missing_cps_months = ["2025-10"]
+
+[paths]
+# Data paths below are relative to the 项目本体 repository root.
+path_base = "repository_root"
+raw_data = "pipeline_v2/data/raw"
+interim_data = "pipeline_v2/data/interim"
+processed_data = "pipeline_v2/data/processed"
+test_fixtures = "pipeline_v2/tests/fixtures"
+source_manifest = "pipeline_v2/data/manifest/source_manifest.json"
+
+[cps_pilot]
+reference_period = "2026-08"
+url = "https://www2.census.gov/programs-surveys/cps/datasets/2026/basic/aug26pub.zip"
+local_path = "pipeline_v2/data/raw/cps/2026/aug26pub.zip"
+layout_url = "https://www2.census.gov/programs-surveys/cps/datasets/2026/basic/2026_Basic_CPS_Public_Use_Record_Layout_plus_IO_Code_list.txt"
+layout_local_path = "pipeline_v2/data/raw/cps/2026/2026_Basic_CPS_Public_Use_Record_Layout_plus_IO_Code_list.txt"
+
+[acs_pilot]
+reference_period = "2024"
+url = "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_pus.zip"
+local_path = "pipeline_v2/data/raw/acs/2024/csv_pus.zip"
+selected_columns = ["SERIALNO", "SPORDER", "PWGTP", "OCCP", "ESR", "AGEP", "SCHL"]
+selected_cache = "pipeline_v2/data/interim/acs/2024/acs_2024_person_selected.csv.gz"

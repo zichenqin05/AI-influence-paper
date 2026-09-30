@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "failures": [],
+  "cps": {
+    "rows": 2794,
+    "months": 127,
+    "first_month": "2016-01",
+    "last_month": "2026-08",
+    "missing_reference_month": "2025-10",
+    "occupation_groups": 22,
+    "duplicate_keys": 0,
+    "identity_errors": 0,
+    "unemployment_rate_errors": 0,
+    "negative_weight_rows": 0,
+    "release_dates_unverified_as_recorded": 2794
+  },
+  "acs": {
+    "rows": 132,
+    "years": [
+      2018,
+      2019,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "occupation_groups": 22,
+    "duplicate_keys": 0,
+    "age_share_identity_errors": 0,
+    "education_share_identity_errors": 0,
+    "share_range_errors": 0,
+    "release_date_errors": 0
+  }
+}

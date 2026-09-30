@@ -1,0 +1,22 @@
+{
+  "cps": {
+    "source": "CPS Basic Monthly public-use microdata",
+    "release_dates": "unknown; no exact-as-of claim"
+  },
+  "acs": {
+    "source": "ACS 1-Year PUMS",
+    "vintage_rule": "latest release available by origin month first day"
+  },
+  "labels": {
+    "definition": "mean of u at exact t+1, t+2, t+3 calendar months",
+    "availability": "exact CPS release dates unknown"
+  },
+  "historical_backfill": "none for ACS; no Signals features in stage A-C",
+  "occupation_classification": "Census 2018 OCC / SOC major group; Jan 2020 CPS transition flagged",
+  "input_hashes": {
+    "cps_occupation_month.csv.gz": "cdb5dee1e41e7799b90cd6787df67d0ee8b549d4d38c23a10678fc44cc8f9574",
+    "cps_national_month_diagnostic.csv.gz": "1e4cf2e2470f14272dd92de0acbda917836052934ce8388dcb882686674d6267",
+    "acs_occupation_year.csv.gz": "be305ad46bc082d1df46b783103e431a917be2f36a6b3a1b651e1c7f4980420f",
+    "acs_mapping_diagnostic.csv.gz": "9461ea841727d84568e1f7b79bacec0658fd70d46f22e2d5795926c9e5c35585"
+  }
+}

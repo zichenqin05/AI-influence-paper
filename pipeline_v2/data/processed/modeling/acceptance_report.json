@@ -1,0 +1,107 @@
+{
+  "stage": "A_B_factor_and_time_fold_acceptance",
+  "built_at": "2026-09-29T18:46:22+00:00",
+  "passed": true,
+  "checks": {
+    "calendar_labels_do_not_skip_gaps": true,
+    "labels_are_bounded": true,
+    "all_labels_have_three_target_months": true,
+    "cps_panel_keys_unique": true,
+    "acs_pc_fit_source_deduplicated": true,
+    "all_test_months_have_22_groups_for_eligible_folds": true,
+    "all_training_labels_end_before_test_month": true,
+    "fold_specific_factor_loadings_exist": true,
+    "no_global_pca_fit": true,
+    "strict_asof_labeled_unavailable_when_cps_release_unknown": true,
+    "unknown_cps_publication_dates_not_fabricated_for_labels": true
+  },
+  "quality_and_reliability": {
+    "cps_rows": 2794,
+    "cps_unique_months": 127,
+    "occupation_groups": [
+      "11-0000",
+      "13-0000",
+      "15-0000",
+      "17-0000",
+      "19-0000",
+      "21-0000",
+      "23-0000",
+      "25-0000",
+      "27-0000",
+      "29-0000",
+      "31-0000",
+      "33-0000",
+      "35-0000",
+      "37-0000",
+      "39-0000",
+      "41-0000",
+      "43-0000",
+      "45-0000",
+      "47-0000",
+      "49-0000",
+      "51-0000",
+      "53-0000"
+    ],
+    "expected_occupation_group_count": 22,
+    "duplicate_occupation_month_keys": 0,
+    "missing_calendar_months": [
+      "2025-10"
+    ],
+    "cps_exact_publication_dates_known": false,
+    "cps_unemployment_n_lt_10": 116,
+    "cps_unemployment_n_lt_30": 610,
+    "cps_employment_n_lt_100": 0,
+    "low_support_rows_retained": true,
+    "kish_effective_sample_size_available": false,
+    "cps_2018_classification_change_flag_month": "2020-01",
+    "cps_weighted_identification_share_2019": 0.9448237852339451,
+    "cps_2019_employment_weighted_coverage": 0.9478637840618166,
+    "cps_2019_unemployment_weighted_coverage": 0.8658227662533657,
+    "acs_years": [
+      2018,
+      2019,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "acs_rows_are_unique_occupation_year": true,
+    "acs_mapping_diagnostic_rows": 6,
+    "acs_release_date_gating": "release date <= forecast month first day; no backfill",
+    "label_valid_rows": 2662,
+    "label_invalid_rows": 132,
+    "label_available_at_unknown_rows": 2662,
+    "label_reliability_sensitivity_flagged_rows": 832,
+    "fold_count": 121,
+    "cps_only_eligible_folds": 82,
+    "cps_acs_eligible_folds": 35
+  },
+  "factor_design": {
+    "L": [
+      "u_t",
+      "log_emp_change",
+      "employment_share"
+    ],
+    "S": [
+      "share_age_16_24",
+      "share_age_25_54",
+      "share_education_less_than_high_school",
+      "share_education_high_school_or_equivalent",
+      "share_education_some_college_or_associate",
+      "share_education_bachelors"
+    ],
+    "component_count_per_block": 1,
+    "pca_scope": "outer fold training only; ACS PCA rows unique occupation_group × source_year",
+    "imputation_and_scaling": "fit on the outer training fold; median impute, standardize, first PC",
+    "sign_anchor": {
+      "L": "u_t loading positive",
+      "S": "share_age_25_54 loading positive"
+    }
+  },
+  "limitations": [
+    "This is a retrospective current-vintage analysis, not a strict real-time backtest.",
+    "CPS monthly public-use file release dates were not verified; label_available_at remains blank.",
+    "CPS effective sample sizes/design-based variances are unavailable; n_unemp thresholds are reliability flags only.",
+    "January 2020 starts the new Census occupation coding and is explicitly flagged."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "purpose": "codebook_universe_validation_only",
+  "source_id": "acs_2024_pums_data_dictionary",
+  "source_sha256": "9a98282277aa7f2dafb12b0bdf38b258689d3a1a9c2abbd9b5e2c1ddde6f7b32",
+  "input_archive_sha256": "afdc6d90c6e2f0bab365ed32d95ba4c4d8ac651162f46ac7861295b2dc469894",
+  "selected_cache": "pipeline_v2/data/interim/acs/2024/acs_2024_person_selected.csv.gz",
+  "records": 3422888,
+  "duplicate_SERIALNO_SPORDER_keys": 0,
+  "invalid_or_nonpositive_PWGTP": 0,
+  "blank_value_checks": {
+    "ESR": {
+      "blank_count": 549898,
+      "blank_records_all_age_under_16": true,
+      "dictionary_universe": "N/A (less than 16 years old)"
+    },
+    "OCCP": {
+      "blank_count": 1378151,
+      "under_16_blank_count": 549898,
+      "age_16_plus_blank_count": 828253,
+      "age_16_plus_blank_records_all_ESR_6": true,
+      "dictionary_universe": "N/A (less than 16 years old/NILF who last worked more than 5 years ago or never worked)"
+    },
+    "SCHL": {
+      "blank_count": 89284,
+      "blank_records_all_age_under_3": true,
+      "dictionary_universe": "N/A (less than 3 years old)"
+    }
+  },
+  "occupation_code_definition": "2018-and-later occupation recode based on 2018 OCC codes",
+  "interpretation": "Observed blank patterns match selected dictionary universes; this is a source/schema check only, not an occupational estimate, panel, or model result.",
+  "verified_at": "2026-09-28"
+}

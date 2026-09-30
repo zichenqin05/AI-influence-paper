@@ -4,6 +4,10 @@
 /job_embeddings_with_unemployed_fixed.csv
 *.npy
 
+# Re-downloadable public-use archives and large intermediate microdata caches
+/pipeline_v2/data/raw/
+/pipeline_v2/data/interim/**/*.csv.gz
+
 # Generated Python caches
 __pycache__/
 *.py[cod]

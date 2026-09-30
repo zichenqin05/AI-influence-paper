@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-09-29T19:01:23+00:00",
+  "input_panel_hashes": {
+    "cps_occupation_month.csv.gz": "cdb5dee1e41e7799b90cd6787df67d0ee8b549d4d38c23a10678fc44cc8f9574",
+    "cps_national_month_diagnostic.csv.gz": "1e4cf2e2470f14272dd92de0acbda917836052934ce8388dcb882686674d6267",
+    "acs_occupation_year.csv.gz": "be305ad46bc082d1df46b783103e431a917be2f36a6b3a1b651e1c7f4980420f",
+    "acs_mapping_diagnostic.csv.gz": "9461ea841727d84568e1f7b79bacec0658fd70d46f22e2d5795926c9e5c35585"
+  },
+  "artifacts": [
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/acceptance_report.json",
+      "bytes": 3570,
+      "sha256": "faf87cc9ba10651ac655b0ceda9bb2c8b486cffeaeef752d10847cdd628c2536"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/ai_short_window_metrics.csv",
+      "bytes": 1106,
+      "sha256": "c08d3c7911d73c7eaf1f8b3c1dbd7f97a2753d1537aa324fb74c23601861ab5a"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/ai_short_window_predictions.csv.gz",
+      "bytes": 22311,
+      "sha256": "afc583f3b8df26bd0b98192ed049612b6fc031a11a98ed0d8db8d46064590ee9"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/ai_short_window_report.json",
+      "bytes": 12146,
+      "sha256": "a62b61746eafbfa2d113b1377c4a4fd0c737b57991e8d8be6f274e9d25d4f610"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/ai_signal_availability_audit.csv",
+      "bytes": 1923,
+      "sha256": "cb432cd62f02e1f6db0cd67696b6ec731d69c3d1e1dd3be6cc0215ac6e8b3a67"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/errors_by_month.csv",
+      "bytes": 26730,
+      "sha256": "0dec3470fdde068086c91500add9589ad74048c53de2aaf5ba16ad1de9333af1"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/errors_by_occupation.csv",
+      "bytes": 11107,
+      "sha256": "a242e6038944cbdc5ca95b427ac731d3aa9aad3ea1722af38eeb1b768adc1489"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/exposure/exposure_validation_report.json",
+      "bytes": 1852,
+      "sha256": "08ccf3965c36b7b6d206babe5a035cb8c0ff0196ec5088815d26ce169b9be5d0"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/exposure/occupation_exposure_22groups.csv",
+      "bytes": 3989,
+      "sha256": "3bfdd406c398c72b08e1a1ff4b4ef517f90677590065ff318a07d4c1d96cb1d1"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/exposure/occupation_exposure_join_audit.csv.gz",
+      "bytes": 20423,
+      "sha256": "2f66f6c6b63da1044429122f106acc4f658398d6b5e26108c5c69306c62d003f"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/factor_loadings.csv",
+      "bytes": 65415,
+      "sha256": "f7a05e048b5252cd972c4f92ab0125747b3dbeb760d8f1f3b87fdd7cbd783b32"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/feature_availability_audit.csv.gz",
+      "bytes": 71937,
+      "sha256": "3a9be808a30b8e69c4d1958c357c8ab4f5388f82eef497c98b4e059c6df2650d"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/feature_lineage.json",
+      "bytes": 1037,
+      "sha256": "944a7e7cf6ef51253e750a3ad6b81fab7554ec97e4b2f92532eca5432b6583e1"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/features.csv.gz",
+      "bytes": 20289757,
+      "sha256": "fc1e2ab9959f2e141884d101b14fc2bd25946aae4fb523cd02bcaa927e01712e"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/fold_manifest.csv",
+      "bytes": 25884,
+      "sha256": "37039c08eb32af17c6b2ee01d53dde272f48f7c40d67af3ff379677b24df2a01"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/labels.csv",
+      "bytes": 230172,
+      "sha256": "a8fe890a380ed063f82fbb0797bdf2a02b64c5d38dda1d124dad0eca51e40126"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/metrics.csv",
+      "bytes": 1281,
+      "sha256": "c0e4852e3ce2caa9318f53d488483882742743dfa75ddf2b79af5179cd1d0a41"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/non_ai_model_report.json",
+      "bytes": 281064,
+      "sha256": "98fcfdfc6febab8acfd9d2f704fd2f26f9fa1bef5509f14c8e4d4b21172d4576"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/oos_predictions.csv.gz",
+      "bytes": 210530,
+      "sha256": "f9518d1c29ff4bcd922bcfc6db8964706d444a013fa28b1417cdf6abbb1c803a"
+    },
+    {
+      "path": "项目本体/pipeline_v2/data/processed/modeling/quality_reliability.json",
+      "bytes": 1575,
+      "sha256": "cb031bc8858e6f7f58de758c74301e6897dab5f9b9f4d93d53260e7caa39f8c0"
+    }
+  ],
+  "python": "configured Codex workspace runtime for feature build/ridge; isolated Windows venv in system temp for LightGBM",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "lightgbm": "trained LightGBM 4.7.0 with temporal early stopping and bounded depth/leaves",
+  "random_seed": null,
+  "modeling_randomness": "none; SVD and ridge are deterministic"
+}

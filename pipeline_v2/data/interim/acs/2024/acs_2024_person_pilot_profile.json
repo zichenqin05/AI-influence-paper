@@ -1,0 +1,67 @@
+{
+  "purpose": "schema_and_selected_column_streaming_pilot_only",
+  "interpretation": "No occupational estimates, panels, or model results generated",
+  "input_archive_bytes": 602847146,
+  "person_csv_members": [
+    {
+      "name": "psam_pusa.csv",
+      "uncompressed_bytes": 1226543489,
+      "records": 1743751,
+      "columns": 286
+    },
+    {
+      "name": "psam_pusb.csv",
+      "uncompressed_bytes": 1178924624,
+      "records": 1679137,
+      "columns": 286
+    }
+  ],
+  "selected_columns": [
+    "SERIALNO",
+    "SPORDER",
+    "PWGTP",
+    "OCCP",
+    "ESR",
+    "AGEP",
+    "SCHL"
+  ],
+  "records": 3422888,
+  "missing_key_value_counts": {
+    "SERIALNO": 0,
+    "SPORDER": 0
+  },
+  "blank_value_counts": {
+    "SERIALNO": 0,
+    "SPORDER": 0,
+    "PWGTP": 0,
+    "OCCP": 1378151,
+    "ESR": 549898,
+    "AGEP": 0,
+    "SCHL": 89284
+  },
+  "invalid_numeric_value_counts": {
+    "PWGTP": 0,
+    "AGEP": 0
+  },
+  "esr_value_counts": {
+    "": 549898,
+    "1": 1564424,
+    "2": 30123,
+    "3": 72315,
+    "4": 13343,
+    "5": 131,
+    "6": 1192654
+  },
+  "age_min": 0,
+  "age_max": 96,
+  "weight_min": 1,
+  "weight_max": 2300,
+  "weight_zero_count": 0,
+  "weight_negative_count": 0,
+  "occupation_code_distinct_count": 530,
+  "education_code_distinct_count": 24,
+  "selected_cache_path": "D:\\a^Main data\\a^qinzichen\\2026美国数学建模大赛\\项目本体\\pipeline_v2\\data\\interim\\acs\\2024\\acs_2024_person_selected.csv.gz",
+  "selected_cache_bytes": 28023439,
+  "source_id": "acs_1year_pums_2024_person_pilot",
+  "input_sha256": "afdc6d90c6e2f0bab365ed32d95ba4c4d8ac651162f46ac7861295b2dc469894"
+}

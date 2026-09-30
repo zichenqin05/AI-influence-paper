@@ -1,0 +1,353 @@
+{
+  "stage": "D_AI_short_window",
+  "passed": true,
+  "status": "complete",
+  "exposure_validation": {
+    "stage": "D_occupation_exposure_validation",
+    "source": "OpenAI GPTs are GPTs author repository data/occ_level.csv",
+    "source_commit": "9ed4148d15f4c4a2666f45bf0006e56b3a3b9f70",
+    "source_file_commit_date": "2025-10-03T22:34:55Z",
+    "source_file_sha256": "40c74f53de40aec91c0017d80690cbba915f83a8bb414bcf2f884692f1749acb",
+    "license": "MIT; LICENSE retained alongside source",
+    "source_row_count": 923,
+    "unique_full_onet_soc_codes": 923,
+    "unique_six_digit_bases": 798,
+    "ambiguous_onet_soc_bases": 67,
+    "main_measure": "human_rating_beta = E1 + 0.5 × E2",
+    "sensitivity_measures": [
+      "human alpha/beta/gamma",
+      "GPT-4 dv_rating alpha/beta/gamma"
+    ],
+    "join_rule": "exact 2018 Census OCC → source SOC base; exact O*NET six-digit base only when unique; ambiguous extensions remain unmatched; no fuzzy title joins",
+    "weight_rule": "2022 ACS civilian employed age 16+ PWGTP; ESR 1/2; fixed weights by occupation group",
+    "matched_employment_weight": 90176569.0,
+    "mapped_civilian_employment_weight": 162740473.0,
+    "overall_employment_weighted_coverage": 0.5541127375241192,
+    "groups_with_positive_E_coverage": 22,
+    "groups_with_coverage_ge_70pct": 4,
+    "groups_with_coverage_ge_50pct": 13,
+    "groups_below_50pct_coverage": [
+      "11-0000",
+      "17-0000",
+      "19-0000",
+      "25-0000",
+      "29-0000",
+      "33-0000",
+      "45-0000",
+      "51-0000",
+      "53-0000"
+    ],
+    "group_count": 22,
+    "ai_short_window_eligible": true,
+    "coverage_interpretation": "All 22 groups have a matched-only employment-weighted E estimate; estimates below 50% coverage are retained only for the exploratory all-group run and separately excluded in sensitivity analysis.",
+    "ai_short_window_skip_reason": "",
+    "paper_interpretation": "potential exposure, not adoption or realized labor-market effect"
+  },
+  "signals_release_date": null,
+  "signals_evaluation_label": "non_realtime_backtest",
+  "signals_availability_audit": [
+    {
+      "month": "2024-07",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2024-07-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2024-08",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2024-08-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2024-09",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2024-09-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2024-10",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2024-10-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2024-11",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2024-11-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2024-12",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2024-12-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2025-01",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2025-01-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2025-02",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2025-02-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2025-03",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2025-03-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2025-04",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2025-04-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2025-05",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2025-05-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2025-06",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2025-06-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2025-11",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2025-11-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2025-12",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2025-12-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2026-01",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2026-01-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2026-02",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2026-02-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2026-03",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2026-03-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2026-04",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2026-04-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    },
+    {
+      "month": "2026-05",
+      "source_kind": "signals",
+      "release_date": null,
+      "forecast_date": "2026-05-01",
+      "available": true,
+      "status": "historical_backfill_release_date_unknown",
+      "evaluation_label": "non_realtime_backtest"
+    }
+  ],
+  "training_months": [
+    "2024-07",
+    "2024-08",
+    "2024-09",
+    "2024-10",
+    "2024-11",
+    "2024-12",
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06"
+  ],
+  "test_months": [
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05"
+  ],
+  "independent_test_months": 7,
+  "group_month_rows_all_groups": 154,
+  "occupation_groups": 22,
+  "training_group_month_rows_all_groups": 264,
+  "feature": "P = human_rating_beta × US work_related share_of_messages",
+  "model_comparison": "paired CPS+ACS ridge without P vs with P; identical training/test keys in every scope",
+  "group_scopes": {
+    "all_22_groups": {
+      "groups": 22,
+      "note": "all 22 groups with positive matched-only E coverage"
+    },
+    "coverage_ge_50pct": {
+      "groups": 13,
+      "note": "sensitivity: groups with at least 50% employment-weighted E coverage"
+    }
+  },
+  "metrics": [
+    {
+      "scope": "all_22_groups",
+      "group_month_n": 154,
+      "independent_test_months": 7,
+      "train_months": 12,
+      "train_group_month_n": 264,
+      "occupation_groups": 22,
+      "scope_note": "all 22 groups with positive matched-only E coverage",
+      "model": "persistence",
+      "macro_mae_pp": 0.780091216737206,
+      "macro_rmse_pp": 1.1801122471852892,
+      "paired_no_P_mae_gain_pp": null
+    },
+    {
+      "scope": "all_22_groups",
+      "group_month_n": 154,
+      "independent_test_months": 7,
+      "train_months": 12,
+      "train_group_month_n": 264,
+      "occupation_groups": 22,
+      "scope_note": "all 22 groups with positive matched-only E coverage",
+      "model": "cps_acs_ridge_no_P",
+      "macro_mae_pp": 0.5391012587055601,
+      "macro_rmse_pp": 0.8512773057064538,
+      "paired_no_P_mae_gain_pp": 0.0
+    },
+    {
+      "scope": "all_22_groups",
+      "group_month_n": 154,
+      "independent_test_months": 7,
+      "train_months": 12,
+      "train_group_month_n": 264,
+      "occupation_groups": 22,
+      "scope_note": "all 22 groups with positive matched-only E coverage",
+      "model": "cps_acs_ridge_plus_P",
+      "macro_mae_pp": 0.5493575629954136,
+      "macro_rmse_pp": 0.8479843414039085,
+      "paired_no_P_mae_gain_pp": -0.010256304289853468
+    },
+    {
+      "scope": "coverage_ge_50pct",
+      "group_month_n": 91,
+      "independent_test_months": 7,
+      "train_months": 12,
+      "train_group_month_n": 156,
+      "occupation_groups": 13,
+      "scope_note": "sensitivity: groups with at least 50% employment-weighted E coverage",
+      "model": "persistence",
+      "macro_mae_pp": 0.7279136350771032,
+      "macro_rmse_pp": 1.0148682497061956,
+      "paired_no_P_mae_gain_pp": null
+    },
+    {
+      "scope": "coverage_ge_50pct",
+      "group_month_n": 91,
+      "independent_test_months": 7,
+      "train_months": 12,
+      "train_group_month_n": 156,
+      "occupation_groups": 13,
+      "scope_note": "sensitivity: groups with at least 50% employment-weighted E coverage",
+      "model": "cps_acs_ridge_no_P",
+      "macro_mae_pp": 0.449972998908776,
+      "macro_rmse_pp": 0.6537101633669902,
+      "paired_no_P_mae_gain_pp": 0.0
+    },
+    {
+      "scope": "coverage_ge_50pct",
+      "group_month_n": 91,
+      "independent_test_months": 7,
+      "train_months": 12,
+      "train_group_month_n": 156,
+      "occupation_groups": 13,
+      "scope_note": "sensitivity: groups with at least 50% employment-weighted E coverage",
+      "model": "cps_acs_ridge_plus_P",
+      "macro_mae_pp": 0.4619838151505622,
+      "macro_rmse_pp": 0.6533235936743882,
+      "paired_no_P_mae_gain_pp": -0.012010816241786182
+    }
+  ],
+  "factor_fit": {
+    "L_fit_rows": 264,
+    "S_fit_unique_occupation_year_rows": 44,
+    "S_fit_cutoff": "2025-11-01",
+    "PCA_components": 1
+  },
+  "warnings": [
+    "Only seven independent test months; 154 all-group occupation-month rows are not 154 independent observations.",
+    "Signals historical release dates are unknown; explicit retrospective backfill was enabled and all estimates are labeled non_realtime_backtest.",
+    "OpenAI exposure file was committed to the source repository on 2025-10-03; this is a current-vintage model fit after that date, not a historical deployment simulation.",
+    "Nine occupation groups have <50% verified employment-weighted E coverage; all-group estimates use matched occupation weights only and the >=50% coverage sensitivity is reported.",
+    "P is a predictive interaction, not a causal effect of AI adoption."
+  ]
+}
